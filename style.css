@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+display: flex;
+margin: 0;
+height: 100vh;
+font-family: "Roboto", sans-serif;}
+#mainbar {width: 100%; }
+#contentbar {display: flex;flex-wrap: wrap;gap: 20px;padding: 70px 40px;}
+  
+   
+
+#sidebar {display: flex;flex-direction: column;gap: 25px;}
+.sidebar-icon{
+padding: 1em;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.sidebar-icon p {margin: 0;font-size: 0.8em;}
+.sidebar-icon ion-icon{font-size: 1.5em;}
+#topbar{height:8vh; display: flex; justify-content: space-between;align-items: center;}
+#logo{height: 50%;}
+#search{display: flex;height: 50%;}
+#topbar-icons{display: flex;}
+.topbar-icons ion-icon{
+font-size: 2em;
+padding: 0 0.3em;}
+#mic-icon ion-icon{font-size: 1.4em;margin: 0 0.5em;}
+#search-btn{
+padding: 0 0.6em;
+font-size: 1.2em;
+display: flex;
+align-items: center;}
+.thumb{flex: 1 1 300px;margin: 0;}
+.epicod-thumb{width: 100%;height: auto;}
+.epicod-logo{height: 3em;margin: 15px 0;}
+.logo{display: flex;;gap: 15px}
+.Title{font-size: 0.7em; display: flex;flex-direction: column;}
+.Title p{margin: 0;}
+.Title h2 {margin: 15px 0 0 0;}
+
